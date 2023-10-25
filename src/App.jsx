@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import Confetti from 'react-confetti'
 import './App.css'
 
-const gameIcons = ["🦺","🚡","🦖","🍊","🐤"]
+const gameIcons = ["🦺","🚡","🦖","🍊","🐤","🥪","🧞‍♀️","🐹","🥋"]
 function App() {
  const [ pieces, setPieces ]= useState([])
  let timeOut = useRef()
